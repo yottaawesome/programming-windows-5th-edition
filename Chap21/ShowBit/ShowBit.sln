@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BitLib", "BitLib.vcxproj", "{BBC3D082-36E1-449E-82EC-CC24112474B9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShowBit", "ShowBit.vcxproj", "{C1EA4BE4-EE43-4567-A88F-6107C3D80FA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBC3D082-36E1-449E-82EC-CC24112474B9}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBC3D082-36E1-449E-82EC-CC24112474B9}.Debug|x86.Build.0 = Debug|Win32
+		{BBC3D082-36E1-449E-82EC-CC24112474B9}.Release|x86.ActiveCfg = Release|Win32
+		{BBC3D082-36E1-449E-82EC-CC24112474B9}.Release|x86.Build.0 = Release|Win32
+		{BBC3D082-36E1-449E-82EC-CC24112474B9}.Template|x86.ActiveCfg = Release|Win32
+		{BBC3D082-36E1-449E-82EC-CC24112474B9}.Template|x86.Build.0 = Release|Win32
+		{C1EA4BE4-EE43-4567-A88F-6107C3D80FA1}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1EA4BE4-EE43-4567-A88F-6107C3D80FA1}.Debug|x86.Build.0 = Debug|Win32
+		{C1EA4BE4-EE43-4567-A88F-6107C3D80FA1}.Release|x86.ActiveCfg = Release|Win32
+		{C1EA4BE4-EE43-4567-A88F-6107C3D80FA1}.Release|x86.Build.0 = Release|Win32
+		{C1EA4BE4-EE43-4567-A88F-6107C3D80FA1}.Template|x86.ActiveCfg = Template|Win32
+		{C1EA4BE4-EE43-4567-A88F-6107C3D80FA1}.Template|x86.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,5 +1,5 @@
 # programming-windows-5th-edition
-Source code contained in Charles Petzold's Programming Windows 5th Edition.
+Source code contained in Charles Petzold's Programming Windows 5th Edition. The source code is presented here for convenience (so you don't need to dig up the physical media of the book) and remains the copyright of the book authors.
 
 __________________________________________________________________
 

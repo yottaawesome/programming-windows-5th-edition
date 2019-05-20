@@ -6,3 +6,4 @@ Release/
 *.sdf
 *.ncb
 *.user
+.vs/

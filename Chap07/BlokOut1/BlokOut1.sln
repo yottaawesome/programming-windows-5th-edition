@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.28917.181
+VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Checker3", "Checker3.vcxproj", "{F3B0D41C-99D8-44B3-876E-005460F6B83B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlokOut1", "BlokOut1.vcxproj", "{AD09D01B-7B65-4865-822C-E46EB63BAE37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F3B0D41C-99D8-44B3-876E-005460F6B83B}.Debug|x86.ActiveCfg = Debug|Win32
-		{F3B0D41C-99D8-44B3-876E-005460F6B83B}.Debug|x86.Build.0 = Debug|Win32
-		{F3B0D41C-99D8-44B3-876E-005460F6B83B}.Release|x86.ActiveCfg = Release|Win32
-		{F3B0D41C-99D8-44B3-876E-005460F6B83B}.Release|x86.Build.0 = Release|Win32
+		{AD09D01B-7B65-4865-822C-E46EB63BAE37}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD09D01B-7B65-4865-822C-E46EB63BAE37}.Debug|x86.Build.0 = Debug|Win32
+		{AD09D01B-7B65-4865-822C-E46EB63BAE37}.Release|x86.ActiveCfg = Release|Win32
+		{AD09D01B-7B65-4865-822C-E46EB63BAE37}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7B472183-82EC-4093-86D6-67021BF640E0}
+		SolutionGuid = {AF83610E-BD26-4006-9199-35CB7B5FF7BC}
 	EndGlobalSection
 EndGlobal

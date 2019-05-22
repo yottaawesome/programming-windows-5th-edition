@@ -13,15 +13,15 @@
   <PropertyGroup Label="Globals">
     <SccProjectName />
     <SccLocalPath />
-    <ProjectGuid>{6A2F3159-E2C9-4939-8909-1E71B69031E0}</ProjectGuid>
+    <ProjectGuid>{A79DAEC3-ADB7-458E-95D5-B79F962D4D62}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
@@ -29,64 +29,25 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
-  </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
   </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>.\Debug\</OutDir>
-    <IntDir>.\Debug\</IntDir>
-    <LinkIncremental>true</LinkIncremental>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>.\Release\</OutDir>
     <IntDir>.\Release\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <ClCompile>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
-      <FunctionLevelLinking>false</FunctionLevelLinking>
-      <Optimization>Disabled</Optimization>
-      <SuppressStartupBanner>true</SuppressStartupBanner>
-      <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
-      <PrecompiledHeaderOutputFile>.\Debug\OwnDraw.pch</PrecompiledHeaderOutputFile>
-      <ObjectFileName>.\Debug\</ObjectFileName>
-      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
-    </ClCompile>
-    <Midl>
-      <SuppressStartupBanner>true</SuppressStartupBanner>
-      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <TypeLibraryName>.\Debug\OwnDraw.tlb</TypeLibraryName>
-      <MkTypLibCompatible>true</MkTypLibCompatible>
-      <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
-      <TargetEnvironment>Win32</TargetEnvironment>
-    </Midl>
-    <ResourceCompile>
-      <Culture>0x0409</Culture>
-      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-    </ResourceCompile>
-    <Bscmake>
-      <SuppressStartupBanner>true</SuppressStartupBanner>
-      <OutputFile>.\Debug\OwnDraw.bsc</OutputFile>
-    </Bscmake>
-    <Link>
-      <SuppressStartupBanner>true</SuppressStartupBanner>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Windows</SubSystem>
-      <OutputFile>.\Debug\OwnDraw.exe</OutputFile>
-      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-    </Link>
-  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -98,14 +59,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
-      <PrecompiledHeaderOutputFile>.\Release\OwnDraw.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>.\Release\BtnLook.pch</PrecompiledHeaderOutputFile>
       <ObjectFileName>.\Release\</ObjectFileName>
       <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
     </ClCompile>
     <Midl>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <TypeLibraryName>.\Release\OwnDraw.tlb</TypeLibraryName>
+      <TypeLibraryName>.\Release\BtnLook.tlb</TypeLibraryName>
       <MkTypLibCompatible>true</MkTypLibCompatible>
       <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
       <TargetEnvironment>Win32</TargetEnvironment>
@@ -116,17 +77,56 @@
     </ResourceCompile>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <OutputFile>.\Release\OwnDraw.bsc</OutputFile>
+      <OutputFile>.\Release\BtnLook.bsc</OutputFile>
     </Bscmake>
     <Link>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <SubSystem>Windows</SubSystem>
-      <OutputFile>.\Release\OwnDraw.exe</OutputFile>
+      <OutputFile>.\Release\BtnLook.exe</OutputFile>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Debug\BtnLook.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\BtnLook.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\BtnLook.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\BtnLook.exe</OutputFile>
       <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="OwnDraw.c" />
+    <ClCompile Include="BtnLook.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

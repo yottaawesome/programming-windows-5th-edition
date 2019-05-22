@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <SccProjectName />
     <SccLocalPath />
-    <ProjectGuid>{6A2F3159-E2C9-4939-8909-1E71B69031E0}</ProjectGuid>
+    <ProjectGuid>{FD09FA56-CDC7-41C5-BDF9-182E8EACF29F}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -59,14 +59,14 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
-      <PrecompiledHeaderOutputFile>.\Debug\OwnDraw.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>.\Debug\Environ.pch</PrecompiledHeaderOutputFile>
       <ObjectFileName>.\Debug\</ObjectFileName>
       <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
     </ClCompile>
     <Midl>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <TypeLibraryName>.\Debug\OwnDraw.tlb</TypeLibraryName>
+      <TypeLibraryName>.\Debug\Environ.tlb</TypeLibraryName>
       <MkTypLibCompatible>true</MkTypLibCompatible>
       <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
       <TargetEnvironment>Win32</TargetEnvironment>
@@ -77,13 +77,13 @@
     </ResourceCompile>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <OutputFile>.\Debug\OwnDraw.bsc</OutputFile>
+      <OutputFile>.\Debug\Environ.bsc</OutputFile>
     </Bscmake>
     <Link>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
-      <OutputFile>.\Debug\OwnDraw.exe</OutputFile>
+      <OutputFile>.\Debug\Environ.exe</OutputFile>
       <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -98,14 +98,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
-      <PrecompiledHeaderOutputFile>.\Release\OwnDraw.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>.\Release\Environ.pch</PrecompiledHeaderOutputFile>
       <ObjectFileName>.\Release\</ObjectFileName>
       <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
     </ClCompile>
     <Midl>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <TypeLibraryName>.\Release\OwnDraw.tlb</TypeLibraryName>
+      <TypeLibraryName>.\Release\Environ.tlb</TypeLibraryName>
       <MkTypLibCompatible>true</MkTypLibCompatible>
       <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
       <TargetEnvironment>Win32</TargetEnvironment>
@@ -116,17 +116,17 @@
     </ResourceCompile>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <OutputFile>.\Release\OwnDraw.bsc</OutputFile>
+      <OutputFile>.\Release\Environ.bsc</OutputFile>
     </Bscmake>
     <Link>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <SubSystem>Windows</SubSystem>
-      <OutputFile>.\Release\OwnDraw.exe</OutputFile>
+      <OutputFile>.\Release\Environ.exe</OutputFile>
       <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="OwnDraw.c" />
+    <ClCompile Include="Environ.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

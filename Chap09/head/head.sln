@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OwnDraw", "OwnDraw.vcxproj", "{6A2F3159-E2C9-4939-8909-1E71B69031E0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "head", "head.vcxproj", "{696C34AC-9E33-4EBD-8F9E-34F29A884F2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6A2F3159-E2C9-4939-8909-1E71B69031E0}.Debug|x86.ActiveCfg = Debug|Win32
-		{6A2F3159-E2C9-4939-8909-1E71B69031E0}.Debug|x86.Build.0 = Debug|Win32
-		{6A2F3159-E2C9-4939-8909-1E71B69031E0}.Release|x86.ActiveCfg = Release|Win32
-		{6A2F3159-E2C9-4939-8909-1E71B69031E0}.Release|x86.Build.0 = Release|Win32
+		{696C34AC-9E33-4EBD-8F9E-34F29A884F2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{696C34AC-9E33-4EBD-8F9E-34F29A884F2C}.Debug|x86.Build.0 = Debug|Win32
+		{696C34AC-9E33-4EBD-8F9E-34F29A884F2C}.Release|x86.ActiveCfg = Release|Win32
+		{696C34AC-9E33-4EBD-8F9E-34F29A884F2C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E9D67678-5D88-4552-8D5E-71CB3DB0D66D}
+		SolutionGuid = {A3226030-B529-49FF-B2FF-93ABCB589A58}
 	EndGlobalSection
 EndGlobal

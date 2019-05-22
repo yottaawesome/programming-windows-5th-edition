@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OwnDraw", "OwnDraw.vcxproj", "{6A2F3159-E2C9-4939-8909-1E71B69031E0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BtnLook", "BtnLook.vcxproj", "{A79DAEC3-ADB7-458E-95D5-B79F962D4D62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6A2F3159-E2C9-4939-8909-1E71B69031E0}.Debug|x86.ActiveCfg = Debug|Win32
-		{6A2F3159-E2C9-4939-8909-1E71B69031E0}.Debug|x86.Build.0 = Debug|Win32
-		{6A2F3159-E2C9-4939-8909-1E71B69031E0}.Release|x86.ActiveCfg = Release|Win32
-		{6A2F3159-E2C9-4939-8909-1E71B69031E0}.Release|x86.Build.0 = Release|Win32
+		{A79DAEC3-ADB7-458E-95D5-B79F962D4D62}.Debug|x86.ActiveCfg = Debug|Win32
+		{A79DAEC3-ADB7-458E-95D5-B79F962D4D62}.Debug|x86.Build.0 = Debug|Win32
+		{A79DAEC3-ADB7-458E-95D5-B79F962D4D62}.Release|x86.ActiveCfg = Release|Win32
+		{A79DAEC3-ADB7-458E-95D5-B79F962D4D62}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E9D67678-5D88-4552-8D5E-71CB3DB0D66D}
+		SolutionGuid = {19F4AC4B-D2D4-40F7-8173-1D0EE47936BF}
 	EndGlobalSection
 EndGlobal

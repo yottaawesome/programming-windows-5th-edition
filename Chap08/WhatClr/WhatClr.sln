@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WhatClr", "WhatClr.vcxproj", "{4C41BCBF-F007-43EF-AEA0-22485279BC94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C41BCBF-F007-43EF-AEA0-22485279BC94}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C41BCBF-F007-43EF-AEA0-22485279BC94}.Debug|x86.Build.0 = Debug|Win32
+		{4C41BCBF-F007-43EF-AEA0-22485279BC94}.Release|x86.ActiveCfg = Release|Win32
+		{4C41BCBF-F007-43EF-AEA0-22485279BC94}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C395ECC6-90CA-4F67-BFEB-C6CB290180A7}
+	EndGlobalSection
+EndGlobal

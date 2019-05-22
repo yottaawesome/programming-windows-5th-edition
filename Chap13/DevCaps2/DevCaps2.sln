@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DevCaps2", "DevCaps2.vcxproj", "{2A026558-0BEA-4C61-9515-7A555BC99DE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A026558-0BEA-4C61-9515-7A555BC99DE6}.Debug|x86.ActiveCfg = Debug|Win32
+		{2A026558-0BEA-4C61-9515-7A555BC99DE6}.Debug|x86.Build.0 = Debug|Win32
+		{2A026558-0BEA-4C61-9515-7A555BC99DE6}.Release|x86.ActiveCfg = Release|Win32
+		{2A026558-0BEA-4C61-9515-7A555BC99DE6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F18A64BB-53D7-4C5B-8639-C897744A8BC1}
+	EndGlobalSection
+EndGlobal

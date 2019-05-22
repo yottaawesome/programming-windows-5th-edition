@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BitBlt", "BitBlt.vcxproj", "{7DA1FA29-78E8-4B46-B90A-F3F24F6B9836}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DA1FA29-78E8-4B46-B90A-F3F24F6B9836}.Debug|x86.ActiveCfg = Debug|Win32
+		{7DA1FA29-78E8-4B46-B90A-F3F24F6B9836}.Debug|x86.Build.0 = Debug|Win32
+		{7DA1FA29-78E8-4B46-B90A-F3F24F6B9836}.Release|x86.ActiveCfg = Release|Win32
+		{7DA1FA29-78E8-4B46-B90A-F3F24F6B9836}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D08DDEB1-34E9-4452-8F4A-057B751FF352}
+	EndGlobalSection
+EndGlobal

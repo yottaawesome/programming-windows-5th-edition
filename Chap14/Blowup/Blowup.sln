@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blowup", "Blowup.vcxproj", "{3AA4C828-4308-4933-B1D0-7E6B27392452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AA4C828-4308-4933-B1D0-7E6B27392452}.Debug|x86.ActiveCfg = Debug|Win32
+		{3AA4C828-4308-4933-B1D0-7E6B27392452}.Debug|x86.Build.0 = Debug|Win32
+		{3AA4C828-4308-4933-B1D0-7E6B27392452}.Release|x86.ActiveCfg = Release|Win32
+		{3AA4C828-4308-4933-B1D0-7E6B27392452}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDFD9BF8-BEA9-4C16-A3CC-1510A463789A}
+	EndGlobalSection
+EndGlobal

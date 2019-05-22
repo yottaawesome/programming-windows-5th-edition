@@ -1,8 +1,0 @@
-# Microsoft Developer Studio Generated Dependency File, included by GrafMenu.mak
-
-.\GrafMenu.rc : \
-	".\Bighelp.bmp"\
-	".\Editlabl.bmp"\
-	".\Filelabl.bmp"\
-	".\Fontlabl.bmp"\
-	

@@ -105,7 +105,7 @@ LRESULT CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
                     iNumLines ++ ;
                pText = AnsiNext (pText) ;
           }
-          *pText = '\0' ;
+          pText = '\0' ;
           
           SetScrollRange (hScroll, SB_CTL, 0, iNumLines, FALSE) ;
           SetScrollPos   (hScroll, SB_CTL, 0, FALSE) ;

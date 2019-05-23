@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontClip", "FontClip.vcxproj", "{12A2EAEB-4355-47DA-A564-58C25B9529B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12A2EAEB-4355-47DA-A564-58C25B9529B6}.Debug|x86.ActiveCfg = Debug|Win32
+		{12A2EAEB-4355-47DA-A564-58C25B9529B6}.Debug|x86.Build.0 = Debug|Win32
+		{12A2EAEB-4355-47DA-A564-58C25B9529B6}.Release|x86.ActiveCfg = Release|Win32
+		{12A2EAEB-4355-47DA-A564-58C25B9529B6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BFF4FFA-2014-46EC-9899-C22190F0245A}
+	EndGlobalSection
+EndGlobal

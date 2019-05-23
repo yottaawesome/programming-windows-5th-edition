@@ -1,5 +1,0 @@
-# Microsoft Developer Studio Generated Dependency File, included by ShowDib3.mak
-
-.\ShowDib3.c : \
-	".\PackeDib.h"\
-	

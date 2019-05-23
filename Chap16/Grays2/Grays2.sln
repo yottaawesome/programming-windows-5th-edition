@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Grays2", "Grays2.vcxproj", "{5F2AC395-0842-4FF6-9F86-6BDE92A9A0E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F2AC395-0842-4FF6-9F86-6BDE92A9A0E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{5F2AC395-0842-4FF6-9F86-6BDE92A9A0E3}.Debug|x86.Build.0 = Debug|Win32
+		{5F2AC395-0842-4FF6-9F86-6BDE92A9A0E3}.Release|x86.ActiveCfg = Release|Win32
+		{5F2AC395-0842-4FF6-9F86-6BDE92A9A0E3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0651D6B-F0D6-4680-89E6-54D0FCF6BA8A}
+	EndGlobalSection
+EndGlobal

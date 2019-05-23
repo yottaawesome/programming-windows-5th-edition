@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SysPal2", "SysPal2.vcxproj", "{AC3FECE8-C6EB-4280-A3A3-CEC3E5D6A1A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC3FECE8-C6EB-4280-A3A3-CEC3E5D6A1A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC3FECE8-C6EB-4280-A3A3-CEC3E5D6A1A4}.Debug|x86.Build.0 = Debug|Win32
+		{AC3FECE8-C6EB-4280-A3A3-CEC3E5D6A1A4}.Release|x86.ActiveCfg = Release|Win32
+		{AC3FECE8-C6EB-4280-A3A3-CEC3E5D6A1A4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C192E5E-1EDA-4444-978C-CB045C369276}
+	EndGlobalSection
+EndGlobal

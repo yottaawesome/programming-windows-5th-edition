@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShowDib3", "ShowDib3.vcxproj", "{5FDB3346-8E33-4F8A-81C2-F25B41367D7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FDB3346-8E33-4F8A-81C2-F25B41367D7A}.Debug|x86.ActiveCfg = Debug|Win32
+		{5FDB3346-8E33-4F8A-81C2-F25B41367D7A}.Debug|x86.Build.0 = Debug|Win32
+		{5FDB3346-8E33-4F8A-81C2-F25B41367D7A}.Release|x86.ActiveCfg = Release|Win32
+		{5FDB3346-8E33-4F8A-81C2-F25B41367D7A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D0217AC-F32E-487F-965A-A3A77D41AE5D}
+	EndGlobalSection
+EndGlobal

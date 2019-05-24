@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Emf7", "Emf7.vcxproj", "{B6251C4B-92FD-405D-985B-C7E2A88BE741}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6251C4B-92FD-405D-985B-C7E2A88BE741}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6251C4B-92FD-405D-985B-C7E2A88BE741}.Debug|x86.Build.0 = Debug|Win32
+		{B6251C4B-92FD-405D-985B-C7E2A88BE741}.Release|x86.ActiveCfg = Release|Win32
+		{B6251C4B-92FD-405D-985B-C7E2A88BE741}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70DB8640-EAC8-4070-A0A7-55AF95832837}
+	EndGlobalSection
+EndGlobal

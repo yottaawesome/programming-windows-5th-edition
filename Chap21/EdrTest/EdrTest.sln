@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EdrLib", "EdrLib.vcxproj", "{C2408D8E-A077-4002-A00A-3B7E0ACB04B3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EdrTest", "EdrTest.vcxproj", "{0A15D462-2FF5-4780-9671-05C7B4D3988B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2408D8E-A077-4002-A00A-3B7E0ACB04B3}.Debug|x86.ActiveCfg = Debug|Win32
+		{C2408D8E-A077-4002-A00A-3B7E0ACB04B3}.Debug|x86.Build.0 = Debug|Win32
+		{C2408D8E-A077-4002-A00A-3B7E0ACB04B3}.Release|x86.ActiveCfg = Release|Win32
+		{C2408D8E-A077-4002-A00A-3B7E0ACB04B3}.Release|x86.Build.0 = Release|Win32
+		{C2408D8E-A077-4002-A00A-3B7E0ACB04B3}.Template|x86.ActiveCfg = Release|Win32
+		{C2408D8E-A077-4002-A00A-3B7E0ACB04B3}.Template|x86.Build.0 = Release|Win32
+		{0A15D462-2FF5-4780-9671-05C7B4D3988B}.Debug|x86.ActiveCfg = Debug|Win32
+		{0A15D462-2FF5-4780-9671-05C7B4D3988B}.Debug|x86.Build.0 = Debug|Win32
+		{0A15D462-2FF5-4780-9671-05C7B4D3988B}.Release|x86.ActiveCfg = Release|Win32
+		{0A15D462-2FF5-4780-9671-05C7B4D3988B}.Release|x86.Build.0 = Release|Win32
+		{0A15D462-2FF5-4780-9671-05C7B4D3988B}.Template|x86.ActiveCfg = Template|Win32
+		{0A15D462-2FF5-4780-9671-05C7B4D3988B}.Template|x86.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04C9EBA0-EC5C-41A0-B4B6-EF41F6CEEC3D}
+	EndGlobalSection
+EndGlobal

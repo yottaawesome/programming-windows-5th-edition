@@ -1,5 +1,0 @@
-# Microsoft Developer Studio Generated Dependency File, included by EdrTest.mak
-
-.\EdrTest.c : \
-	".\EdrLib.h"\
-	

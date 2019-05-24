@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BigJob1", "BigJob1.vcxproj", "{74A13FD4-251D-4D41-ABA9-7FEE6D662024}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74A13FD4-251D-4D41-ABA9-7FEE6D662024}.Debug|x86.ActiveCfg = Debug|Win32
+		{74A13FD4-251D-4D41-ABA9-7FEE6D662024}.Debug|x86.Build.0 = Debug|Win32
+		{74A13FD4-251D-4D41-ABA9-7FEE6D662024}.Release|x86.ActiveCfg = Release|Win32
+		{74A13FD4-251D-4D41-ABA9-7FEE6D662024}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BB42CAC-C625-4A54-BDB4-F71E19A89297}
+	EndGlobalSection
+EndGlobal

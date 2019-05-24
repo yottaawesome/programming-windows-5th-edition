@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetTime", "NetTime.vcxproj", "{CF063F5E-270E-4065-B7F6-39745DFFD2F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF063F5E-270E-4065-B7F6-39745DFFD2F7}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF063F5E-270E-4065-B7F6-39745DFFD2F7}.Debug|x86.Build.0 = Debug|Win32
+		{CF063F5E-270E-4065-B7F6-39745DFFD2F7}.Release|x86.ActiveCfg = Release|Win32
+		{CF063F5E-270E-4065-B7F6-39745DFFD2F7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18FE1B41-0737-4D50-9D71-31149EE1B197}
+	EndGlobalSection
+EndGlobal

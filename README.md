@@ -2,7 +2,9 @@
 
 Source code contained in Charles Petzold's excellent [Programming Windows 5th edition](http://www.charlespetzold.com/pw5/). The source code is presented here for convenience (so you don't need to dig up the physical media of the book) and remains the copyright of the book authors. Consult `readme.txt` (the TXT that came with the book) for additional information.
 
-I'm currently going through the projects one by one and fixing the compilation switches (which are generating warnings and errors), as well as retargeting and upgrading the solutions. This means old .dsw, .dsp, and .dep files are being removed. If you need these files, look at the earlier commits of this repository. Some samples, particularly in Chapter 16, no longer function due to their requirement of 256-bit display pallete.
+All samples have been updated to use Visual Studio 2019 and retargeted to use the latest Windows SDK. The old *.dep, *.dsw, and *.dsp files can be found in the earlier commits if you need them. That being said, the source code is two decades old and has been minimally retouched here. Most samples still function, but some do not, particularly in Chapter 16 due to the requirement of a 256-bit display pallete, hardware that has long since been forgotten. Some samples may generate deprecation and security warnings upon compilation, and I recommend you heed those warnings if you intend to use any code in production.
+
+If you're after a more thorough overhaul of the codebase, [see here](https://github.com/recombinant/petzold-pw5e), or do a search on GitHub.
 
 __________________________________________________________________
 

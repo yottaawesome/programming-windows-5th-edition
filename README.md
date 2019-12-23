@@ -10,6 +10,12 @@ All samples have been updated to use Visual Studio 2019 and retargeted to use th
 
 ## Considerations
 
-Most samples still function (credit to Microsoft and their emphasis on backwards compatibility), but some do not, particularly in Chapter 16 due to the requirement of hardware with 256-bit display pallete. Needless to say, decades after these samples were written, such hardware now exists mostly as a historical note of a bygone era.
+Most samples still function (credit to Microsoft and their emphasis on backwards compatibility), but some do not, particularly in Chapter 16 due to the requirement of hardware with 256-bit display pallete. Needless to say, decades after these samples were written, such hardware now exists mostly as a historical note of a bygone era. When using any code from this repo in production, always consult the [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list) for relevant and updated usage notes.
 
 Some samples may generate deprecation and security warnings upon compilation, and I recommend you heed those warnings if you intend to use any code in production. Remember this is decades old Win32 code -- depending on what you're trying to do, more modern approaches such as [C++/WinRT](https://docs.microsoft.com/en-us/archive/msdn-magazine/2017/january/c-introducing-c-winrt), [wxWidgets](https://www.wxwidgets.org/) or [POCO C++](https://pocoproject.org/) may be more appropriate.
+
+## Additional resources
+
+* [Build desktop Windows apps using the Win32 API](https://docs.microsoft.com/en-us/windows/win32/)
+* [Get Started with Win32 and C++](https://docs.microsoft.com/en-us/windows/win32/learnwin32/learn-to-program-for-windows)
+* [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list)

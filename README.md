@@ -6,18 +6,10 @@ Source code contained in Charles Petzold's excellent [Programming Windows 5th ed
 
 ## Changes
 
-All samples have been updated to use Visual Studio 2019 and retargeted to use the latest Windows SDK. The old `*.dep`, `*.dsw`, and `*.dsp` files can be found in the earlier commits if you need them. That being said, the source code is two decades old and has been minimally retouched here. Most samples still function (credit to Microsoft and their emphasis on backwards compatibility), but some do not, particularly in Chapter 16 due to the requirement of a 256-bit display pallete (hardware that has long since faded away). Some samples may generate deprecation and security warnings upon compilation, and I recommend you heed those warnings if you intend to use any code in production.
+All samples have been updated to use Visual Studio 2019 and retargeted to use the latest Windows SDK. The old `*.dep`, `*.dsw`, and `*.dsp` files can be found in the earlier commits if you need them. That being said, the source code is two decades old and has been minimally retouched here. If you're after a more thorough overhaul of the codebase, [see here](https://github.com/recombinant/petzold-pw5e), or do a search on GitHub.
 
-If you're after a more thorough overhaul of the codebase, [see here](https://github.com/recombinant/petzold-pw5e), or do a search on GitHub.
+## Considerations
 
-## Copyright
-__________________________________________________________________
+Most samples still function (credit to Microsoft and their emphasis on backwards compatibility), but some do not, particularly in Chapter 16 due to the requirement of hardware with 256-bit display pallete. Needless to say, decades after these samples were written, such hardware now exists mostly as a historical note of a bygone era.
 
-                Programming Windows, Fifth Edition
-
-                        by Charles Petzold
-
-            Copyright (c) 1999 by Microsoft Corporation
-          Portions copyright (c) 1999 by Charles Petzold
-                        All Rights Reserved
-___________________________________________________________________
+Some samples may generate deprecation and security warnings upon compilation, and I recommend you heed those warnings if you intend to use any code in production. Remember this is decades old Win32 code -- depending on what you're trying to do, more modern approaches such as [C++/WinRT](https://docs.microsoft.com/en-us/archive/msdn-magazine/2017/january/c-introducing-c-winrt), [wxWidgets](https://www.wxwidgets.org/) or [POCO C++](https://pocoproject.org/) may be more appropriate.

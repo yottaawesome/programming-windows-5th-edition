@@ -12,7 +12,7 @@ All samples have been updated to use Visual Studio 2019 and retargeted to use th
 
 Most samples still function (credit to Microsoft and their emphasis on backwards compatibility), but some do not, particularly in Chapter 16 due to the requirement of hardware with 256-bit display pallete. Needless to say, decades after these samples were written, such hardware now exists mostly as a historical note of a bygone era.
 
-Some samples may generate deprecation and security warnings upon compilation, and I recommend you heed those warnings if you intend to use any code in production. Remember this is decades old Win32 code -- depending on what you're trying to do, more modern approaches such as [C++/WinRT](https://docs.microsoft.com/en-us/archive/msdn-magazine/2017/january/c-introducing-c-winrt), [wxWidgets](https://www.wxwidgets.org/) or [POCO C++](https://pocoproject.org/) may be more appropriate.
+Some samples may generate deprecation and security warnings upon compilation, and I recommend you heed those warnings if you intend to use any code in production. Remember this is decades old Win32 code -- depending on what you're trying to do, more modern approaches such as [C++/WinRT](https://docs.microsoft.com/en-us/archive/msdn-magazine/2017/january/c-introducing-c-winrt), [wxWidgets](https://www.wxwidgets.org/), [Boost](https://www.boost.org/) or [POCO C++](https://pocoproject.org/) may be more appropriate.
 
 When using any Win32 code from this repo in production, always consult the [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list) for relevant and updated API usage notes.
 

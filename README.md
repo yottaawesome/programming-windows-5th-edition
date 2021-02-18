@@ -21,3 +21,4 @@ When using any Win32 code from this repo in production, always consult the [Wind
 * [Build desktop Windows apps using the Win32 API](https://docs.microsoft.com/en-us/windows/win32/)
 * [Get Started with Win32 and C++](https://docs.microsoft.com/en-us/windows/win32/learnwin32/learn-to-program-for-windows)
 * [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list)
+* [C++/WinRT on MSDN](https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/)

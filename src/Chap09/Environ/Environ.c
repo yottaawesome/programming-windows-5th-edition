@@ -56,9 +56,9 @@ int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance,
 void FillListBox (HWND hwndList) 
 {
      int     iLength ;
-     TCHAR * pVarBlock, * pVarBeg, * pVarEnd, * pVarName ;
+     TCHAR * pVarBlock, * pVarBeg, * pVarEnd, * pVarName, * pVarBlockHead ;
 
-     pVarBlock = GetEnvironmentStrings () ;  // Get pointer to environment block
+     pVarBlockHead = pVarBlock = GetEnvironmentStrings () ;  // Get pointer to environment block
 
      while (*pVarBlock)
      {
@@ -83,7 +83,7 @@ void FillListBox (HWND hwndList)
           }
           while (*pVarBlock++ != '\0') ;     // Scan until terminating zero
      }
-     FreeEnvironmentStrings (pVarBlock) ;
+     FreeEnvironmentStrings (pVarBlockHead) ;
 }
 
 LRESULT CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)

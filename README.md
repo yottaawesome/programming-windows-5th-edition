@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Source code contained in Charles Petzold's excellent [Programming Windows 5th edition](http://www.charlespetzold.com/pw5/). The source code is presented here for convenience (so you don't need to dig up the physical media of the book) and remains the copyright of the book authors. Consult `readme.txt` (the TXT that came with the book) for additional information.
+Source code contained in Charles Petzold's excellent [Programming Windows 5th edition](http://www.charlespetzold.com/pw5/). No representation is made that the source code belongs to me, it's simply reproduced here for convenience (so you don't need to dig up the physical media of the book) and remains the copyright of Charles Petzold. Consult `readme.txt` (the TXT that came with the book) for additional information.
 
 ## Building
 

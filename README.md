@@ -28,3 +28,5 @@ When using any Win32 code from this repo in production, always consult the [Wind
 * [COM and ATL](https://docs.microsoft.com/en-us/cpp/atl/introduction-to-com-and-atl?view=msvc-160)
 * [C++/WinRT](https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/)
 * [theForger's Win32 API Programming Tutorial](http://www.winprog.org/tutorial/). Like this book, the tutorials are quite old, but still useful. Tutorial source code is available on that site as a zip, and I've [also got a repo of it](https://github.com/yottaawesome/forger-win32-tutorial).
+* [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples)
+* [Browse Microsoft's C++ samples](https://docs.microsoft.com/en-us/samples/browse/?languages=cpp)

@@ -33,3 +33,4 @@ When using any Win32 code from this repo in production, always consult the [Wind
 * [Windows via C/C++ 5th edition](https://www.microsoftpressstore.com/store/windows-via-c-c-plus-plus-9780735639218). This is also an excellent, if old, book on Windows system programming. [Source code repo here](https://github.com/yottaawesome/windows-via-c-cpp).
 * [WinUI 3](https://docs.microsoft.com/en-us/windows/apps/winui/winui3/). WinUI 3 is Microsoft's latest and most modern native UI component.
 * [Modernize Your Desktop Apps](https://docs.microsoft.com/en-us/windows/apps/desktop/modernize/). Contains advice and examples on applying the latest Windows 11 UI features to native Windows apps, including Win32 ones.
+* [ZetCode's Windows API tutorial](https://zetcode.com/gui/winapi/)

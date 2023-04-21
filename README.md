@@ -22,15 +22,26 @@ When using any Win32 code from this repo in production, always consult the [Wind
 
 ## Additional resources
 
-* [Build desktop Windows apps using the Win32 API](https://docs.microsoft.com/en-us/windows/win32/)
-* [Get Started with Win32 and C++](https://docs.microsoft.com/en-us/windows/win32/learnwin32/learn-to-program-for-windows)
+### General
+
+* [Windows via C/C++ 5th edition](https://www.microsoftpressstore.com/store/windows-via-c-c-plus-plus-9780735639218). This is also an excellent, if old, book on Windows system programming. [Source code repo here](https://github.com/yottaawesome/windows-via-c-cpp).
 * [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list)
-* [COM and ATL](https://docs.microsoft.com/en-us/cpp/atl/introduction-to-com-and-atl)
-* [C++/WinRT](https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/)
-* [theForger's Win32 API Programming Tutorial](http://www.winprog.org/tutorial/). Like this book, the tutorials are quite old, but still useful. Tutorial source code is available on that site as a zip, and I've [also got a repo of it](https://github.com/yottaawesome/forger-win32-tutorial).
+
+### Samples
+
 * [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples)
 * [Browse Microsoft's C++ samples](https://docs.microsoft.com/en-us/samples/browse/?languages=cpp)
-* [Windows via C/C++ 5th edition](https://www.microsoftpressstore.com/store/windows-via-c-c-plus-plus-9780735639218). This is also an excellent, if old, book on Windows system programming. [Source code repo here](https://github.com/yottaawesome/windows-via-c-cpp).
+
+### Related technologies
+
+* [COM and ATL](https://docs.microsoft.com/en-us/cpp/atl/introduction-to-com-and-atl)
+* [C++/WinRT](https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/). A clean and modern C++ projection over the Windows Runtime APIs.
 * [WinUI 3](https://docs.microsoft.com/en-us/windows/apps/winui/winui3/). WinUI 3 is Microsoft's latest and most modern native UI component.
+
+### Tutorials and guides
+
+* [Get Started with Win32 and C++](https://docs.microsoft.com/en-us/windows/win32/learnwin32/learn-to-program-for-windows)
+* [Build desktop Windows apps using the Win32 API](https://docs.microsoft.com/en-us/windows/win32/)
+* [theForger's Win32 API Programming Tutorial](http://www.winprog.org/tutorial/). Like this book, the tutorials are quite old, but still useful. Tutorial source code is available on that site as a zip, and I've [also got a repo of it](https://github.com/yottaawesome/forger-win32-tutorial).
 * [Modernize Your Desktop Apps](https://docs.microsoft.com/en-us/windows/apps/desktop/modernize/). Contains advice and examples on applying the latest Windows 11 UI features to native Windows apps, including Win32 ones.
 * [ZetCode's Windows API tutorial](https://zetcode.com/gui/winapi/)

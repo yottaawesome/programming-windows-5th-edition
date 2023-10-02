@@ -10,7 +10,7 @@ You'll need Visual Studio 2022 with the _Desktop development with C++_ workload 
 
 ## Changes
 
-All samples have been updated to use Visual Studio 2022 and retargeted to use the latest Windows SDK. An invalid free that was causing crashes in Chapter 9's Environ sample has been fixed. The old `*.dep`, `*.dsw`, and `*.dsp` files can be found in the earlier commits if you need them. That being said, the source code is two decades old and has been minimally retouched here. If you're after a more thorough overhaul of the codebase, [see here](https://github.com/recombinant/petzold-pw5e), or do a search on GitHub.
+All samples have been updated to use Visual Studio 2022 and retargeted to use the latest Windows SDK. An invalid free that was causing crashes in Chapter 9's Environ sample has been fixed, and a separate crash in Chapter 10's PoePoem sample has also been fixed. The old `*.dep`, `*.dsw`, and `*.dsp` files can be found in the earlier commits if you need them. That being said, the source code is two decades old and has been minimally retouched here. If you're after a more thorough overhaul of the codebase, [see here](https://github.com/recombinant/petzold-pw5e), or do a search on GitHub.
 
 ## Considerations
 

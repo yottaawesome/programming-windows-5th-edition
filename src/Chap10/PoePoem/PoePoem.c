@@ -105,8 +105,18 @@ LRESULT CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
                     iNumLines ++ ;
                pText = AnsiNext (pText) ;
           }
+          // The original sample was *pText = '\0', and while this
+          // worked back when the sample was first written, it 
+          // simply crashes on newer versions of Windows due to
+          // resources no longer being mutable in memory. As such,
+          // I've modified this line to harmlessly set the pointer
+          // to '\0'. A more sophisticated solution would be to
+          // copy the resource to a separate buffer and modify this
+          // buffer, but in my testing, no real difference was
+          // observed, so I chose the less invasive change.
+          // See https://github.com/yottaawesome/programming-windows-5th-edition/issues/3
           pText = '\0' ;
-          
+
           SetScrollRange (hScroll, SB_CTL, 0, iNumLines, FALSE) ;
           SetScrollPos   (hScroll, SB_CTL, 0, FALSE) ;
           return 0 ;

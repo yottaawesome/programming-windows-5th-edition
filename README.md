@@ -6,7 +6,7 @@ Source code contained in [Charles Petzold's](https://www.charlespetzold.com/) ex
 
 ## Building
 
-You'll need Visual Studio 2022 with the _Desktop development with C++_ workload installed. Some samples use MFC, so you'll need to install the _C++ MFC for latest v143 build tools (x86 & x64)_ Visual Studio component to build them (MFC is not installed by default in newer versions of Visual Studio). You should then be able to open any of the VS solution files and immediately build them. It may be possible to open the VS solution files using older (but still modern) versions of Visual Studio, but I've not tested this.
+You'll need Visual Studio 2026 with the _Desktop development with C++_ workload installed. Some samples use MFC, so you'll need to install the _C++ MFC for x64/x86 (Latest MSVC)_ Visual Studio component to build them (MFC is not installed by default in newer versions of Visual Studio). You should then be able to open any of the VS solution files and immediately build them. It may be possible to open the VS solution files using older (but still modern) versions of Visual Studio, but I've not tested this.
 
 ## Changes
 
